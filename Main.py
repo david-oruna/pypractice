@@ -1,15 +1,16 @@
-with open('test.txt', "r") as t:
-    for i in t:
-        print(i, end = "")
-#
-#"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+def imc():
+    a = input("Enter your name: ")
+    b = float(input("Enter your weight in kg: "))
+    c = float(input("Enter your height in meters: "))
+    imc = b/(c**2)
+    print("Hi," + a)
+    if imc < 18:
+        print("You are underweight")
+    elif imc < 25:
+        print("You are ok")
+    else:
+        print("You are fat wtf")
 
-#"a" - Append - Opens a file for appending, creates the file if it does not exist
+x = imc()
 
-#"w" - Write - Opens a file for writing, creates the file if it does not exist
-
-#"x" - Create - Creates the specified file, returns an error if the file exist
-#
-#
-#
-#
+# RANOM IMC CALCULATOR HAHA
