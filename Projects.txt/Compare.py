@@ -1,4 +1,7 @@
 import sys, time, os
+import numpy as np
+
+x = np.array([2,3,])
 
 message = "Computer: Hello, i'm a David's python program \(^-^)/.\n\
 And now i'm going to identify some numbers,\n\
