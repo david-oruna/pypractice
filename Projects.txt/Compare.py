@@ -37,6 +37,7 @@ message2 = "Well, after some thought i have come \n\
 to the conclusion that: "
 for char in message2:
     sys.stdout.write(char)
+    
     sys.stdout.flush()
     time.sleep(0.1)
 
@@ -44,7 +45,7 @@ if a < b and b < c:
     print("Your first number " + str(a) + " is less than your second number " + str(b) + "and less than \n\
 your third number" + str(c))
 if a < b and b > c:
-    print("Your first number " + str(a) + " is less than your second number " + str(b) + "but no less than \n\
+    print("Your first number rt" + str(a) + " is less than your second number " + str(b) + "but no less than \n\
 your third number" + str(c))
 if a > b and b < c:
     print("Your first number " + str(a) + " is greater than your second number " + str(b) + "and less than \n\
