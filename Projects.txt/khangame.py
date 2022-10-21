@@ -1,4 +1,4 @@
-# Guessing number game
+# Guessing number game, try to beat it
 
 import random 
 
@@ -19,7 +19,7 @@ def khang():
                 if lol < n:
                     print('Too low')
                     continue
-                else:
+                elif lol == n:
                     ('you got it 😎')
                     break
 
