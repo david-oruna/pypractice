@@ -1,3 +1,6 @@
-with open('test.txt', "r") as t:
-    for i in t:
-        print(i, end = "")
+
+import re
+x = open("s.txt")
+for i in x:
+    i.rstrip()
+    stf = re.findall('[0-9]+', i)
