@@ -11,5 +11,5 @@ def getstudent():
             print('Already')
         else:
             D[student_id] = marks_list.split(",")
-        if moreStudens.lower == "no":
+        if moreStudents.lower == "no":
             return
